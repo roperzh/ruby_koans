@@ -21,11 +21,10 @@ def triangle(a, b, c)
   if a == b && b == c
     :equilateral
   elsif a == b || b == c || a == c
-    :isosceles 
+    :isosceles
   else
     :scalene
   end
-
 end
 
 # Error class used in part 2.  No need to change this code.
